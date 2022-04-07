@@ -2,6 +2,8 @@
 # TimeHetNet
 ### Written by: HiddenForDoubleBlind
 
+(bibtex coming soon...)
+
 ####  Currently it only supports Linux
 
 This is our implementation of TimeHetNet for our paper "Few-Shot Forecasting of Time-Series with Heterogeneous Channels".
