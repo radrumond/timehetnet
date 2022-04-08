@@ -1,6 +1,31 @@
 
 # TimeHetNet
-### Written by: HiddenForDoubleBlind
+### Written by: Rafael Rego Drumond and Lukas Brinkmeyer
+
+If you use this code please cite
+```bibtex
+@misc{https://doi.org/10.48550/arxiv.2204.03456,
+  doi = {10.48550/ARXIV.2204.03456},
+  url = {https://arxiv.org/abs/2204.03456},
+  author = {Brinkmeyer, Lukas and Drumond, Rafael Rego and Burchert, Johannes and Schmidt-Thieme, Lars},
+  keywords = {Machine Learning (cs.LG), FOS: Computer and information sciences, FOS: Computer and information sciences, 68},
+  title = {Few-Shot Forecasting of Time-Series with Heterogeneous Channels},
+  publisher = {arXiv},
+  year = {2022}
+}
+```
+
+This code also provide an implementation for the network of Tomoharu Iwata from the paper below (we nickname it HetNet).
+```
+@article{iwata2020meta,
+  title={Meta-learning from tasks with heterogeneous attribute spaces},
+  author={Iwata, Tomoharu and Kumagai, Atsutoshi},
+  journal={Advances in Neural Information Processing Systems},
+  volume={33},
+  pages={6053--6063},
+  year={2020}
+}
+```
 
 (bibtex coming soon...)
 
