@@ -1,6 +1,7 @@
 
 # TimeHetNet
 ### Written by: Rafael Rego Drumond and Lukas Brinkmeyer
+### Co-written by: Johannes Burchert and Lars Schmidt-Thieme
 
 If you use this code please cite
 ```bibtex
