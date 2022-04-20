@@ -1,4 +1,5 @@
-# TiimeHetNet Meta-dataset
+# TimeHetNet Meta-dataset
+In order to reproduce the results from our paper, you must rebuild our training data-set and our test set.
 
 ## PeekDB
 The peekdb data-set is available [here](https://github.com/RafaelDrumond/PeekDB/tree/master/TimeHetNet). And it's already pre-processed.
@@ -66,3 +67,11 @@ Make sure the data folder looks like this:
      data/UEA_multivariate/x/StandWalkJump_x.npy
      data/UEA_multivariate/x/UWaveGestureLibrary_x.npy
 ```
+
+## Building the test set
+From the root folder of this repo, run
+```bash
+python generate_test_sets/generate_test_set.py
+```
+
+you can also specify your data directory with ``--data_dir``, the default is `~/data`. If you use a different data directory, make sure to specify it when running `experiment.py` as well.
