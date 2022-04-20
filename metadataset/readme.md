@@ -1,5 +1,5 @@
 # TimeHetNet Meta-dataset
-In order to reproduce the results from our paper, you must rebuild our training data-set and our test set.
+In order to reproduce the results from our paper, you must rebuild our training data-set and our test set. Please acquire, pre-process and place the files as specified below.
 
 ## PeekDB
 The peekdb data-set is available [here](https://github.com/RafaelDrumond/PeekDB/tree/master/TimeHetNet). And it's already pre-processed.
