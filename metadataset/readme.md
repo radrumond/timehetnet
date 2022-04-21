@@ -48,8 +48,10 @@ python kaggle.py <folder_path_with_csv_files> <destination_folder> plant
 Make sure the data folder looks like this:
 
 ```
+     #PEEK
      data/peekdb/x.pkl.npy
 
+     #Informer
      data/ETDataset-main/ETT-small/ETTh1.csv
      data/ETDataset-main/ETT-small/ETTh2.csv
      data/ETDataset-main/ETT-small/ETTm1.csv
@@ -57,17 +59,20 @@ Make sure the data folder looks like this:
      data/TimeSeriesData-20211022T144600Z-001/TimeSeriesData/ECL.csv
      data/TimeSeriesData-20211022T144600Z-001/TimeSeriesData/WTH.csv
 
+     #KAGGLE
      data/cnc/cnc.pkl.npy
      data/mining/mining.npy
      data/plant_monitoring/plant.pkl.npy
-
+     
+     #MONASH
      data/Monash/Covid.npy
      data/Monash/Electricity.npy
      data/Monash/FRED.npy
      data/Monash/Rideshare.npy]
      data/Monash/Temperature.npy
      data/Monash/Traffic.npy
-
+     
+     #UEA
      data/UEA_multivariate/x/ArticularyWordRecognition_x.npy
      data/UEA_multivariate/x/AtrialFibrillation_x.npy
      data/UEA_multivariate/x/BasicMotions_x.npy
