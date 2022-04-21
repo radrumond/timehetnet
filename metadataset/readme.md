@@ -14,7 +14,33 @@ Coming soon...
 Coming soon...
 
 ## CNC, Plant_Monitoring and Mining (Kaggle challenge data-sets)
-Coming soon...
+### CNC
+
+1. First download the "experiment" csv files from [here](https://www.kaggle.com/datasets/shasun/tool-wear-detection-in-cnc-mill/download).
+2. Place all the csvs on a folder with only the experiment*.csv files.
+3. Run the ```kaggle.py``` with
+```bash
+python kaggle.py <folder_path_with_csv_files> <destination_folder> cnc
+```
+
+### Mining
+
+1. First download the csv file from [here](https://www.kaggle.com/datasets/edumagalhaes/quality-prediction-in-a-mining-process/download).
+2. Place the csvs on a folder with only the csv file.
+3. Run the ```kaggle.py``` with
+```bash
+python kaggle.py <folder_path_with_csv_files> <destination_folder> mining
+```
+
+### Plant
+
+1. First download the csv files from [here](https://www.kaggle.com/datasets/inIT-OWL/production-plant-data-for-condition-monitoring/download).
+2. Place the csvs on a folder with only the csv files.
+3. Run the ```kaggle.py``` with
+```bash
+python kaggle.py <folder_path_with_csv_files> <destination_folder> plant
+```
+
 
 
 ## Data folder structure
