@@ -1,5 +1,5 @@
 # TimeHetNet Meta-dataset
-In order to reproduce the results from our paper, you must rebuild our training data-set and our test set. Please acquire, pre-process and place the files as specified below.
+In order to reproduce the results from our paper, you must rebuild our training data-set and our test set. Please acquire, pre-process and place the files as specified below. Please make sure the folder structure is THE SAME since we hardcoded these paths into the fold splits files.
 
 ## PeekDB
 The peekdb data-set is available [here](https://github.com/RafaelDrumond/PeekDB/tree/master/TimeHetNet). And it's already pre-processed.
@@ -19,9 +19,14 @@ python monash.py <folder_path_with_tsf_files> <destination_folder>
 ```
 
 ## UEA
-Coming soon...
+1. Download the multivariate UEA Time Series Classification datasets in .arff format from [here](http://www.timeseriesclassification.com/Downloads/Archives/Multivariate2018_arff.zip) and place them in ```<folder_path_with_arff_files>```
+3. Process the datasets by running the ```uea.py``` with
+```bash
+python uea.py <folder_path_with_arff_files> <destination_folder>
+```
 
-## CNC, Plant_Monitoring and Mining (Kaggle challenge data-sets)
+
+## Kaggle challenge datasets
 ### CNC
 
 1. First download the "experiment" csv files from [here](https://www.kaggle.com/datasets/shasun/tool-wear-detection-in-cnc-mill/download).
