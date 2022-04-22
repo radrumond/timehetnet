@@ -110,7 +110,7 @@ Make sure the data folder looks like this:
 ## Building the test set
 From the root folder of this repo, run
 ```bash
-python generate_test_sets/generate_test_set.py
+python generate_test_set.py
 ```
 
 you can also specify your data directory with ``--data_dir``, the default is `~/data`. If you use a different data directory, make sure to specify it when running `experiment.py` as well.
