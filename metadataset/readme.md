@@ -8,7 +8,15 @@ The peekdb data-set is available [here](https://github.com/RafaelDrumond/PeekDB/
 The informer data-sets are available [here](https://github.com/zhouhaoyi/Informer2020) and require no pre-processing.
 
 ## Monash
-Coming soon...
+1. Download the respective monash datasets in .tsf format from [here](https://zenodo.org/communities/forecasting) and place them in ```<folder_path_with_tsf_files>```
+    - The electricity and traffics dataset are both the hourly version
+    
+2. Download the monash ```data_loader.py``` from the offical repository and place it in timehetnet/metadataset: [link](https://github.com/rakshitha123/TSForecasting/blob/master/utils/data_loader.py)
+
+3. Process all monash datasets by running the ```monash.py``` with
+```bash
+python monash.py <folder_path_with_tsf_files> <destination_folder>
+```
 
 ## UEA
 Coming soon...
