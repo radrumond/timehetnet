@@ -40,7 +40,7 @@ Pre-processing code is available at our metadaset folder. The default directory 
 
 Once the data-set is processed, you must run:
 ```bash
-python generate_test_set/generate_test_set.py
+python generate_test_set.py
 ```
 to generate fixed test sets. Keep in mind this process is random and will differ from our current experiments.
 
