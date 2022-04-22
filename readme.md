@@ -37,7 +37,6 @@ Our conda environment has been exported to thn.yaml
 In order to run our code you need to download the data-sets as listed in our paper.
 
 Pre-processing code is available at our metadaset folder. The default directory is ``~/data``
-For now, you can look into the file splits/regensplits.py on how the filenames must look like. ".npy" files are the data-sets converted to a numpy array (SAMPLESxTIMExCHANNELS). ".pkl.npy" are the same, but indicates data-sets where the size  of TIME is not the consistent across SAMPLES.
 
 Once the data-set is processed, you must run:
 ```bash
