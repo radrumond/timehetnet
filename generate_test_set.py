@@ -20,6 +20,12 @@ import os,sys
 import gc
 gc.enable()
 
+import random
+
+
+
+random.seed(16)
+np.random.seed(16)
 
 args = argument_parser()
 file_time = str(datetime.datetime.now()).replace(" ","_")
