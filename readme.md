@@ -42,6 +42,9 @@ Once the data-set is processed, you must run:
 ```bash
 python generate_test_set.py
 ```
+
+Since this leads to a random test set, we have fixed the random seed, but this can still lead to slight shifts in the reported results, but should be consistent in terms of improvement over baslines.
+
 to generate fixed test sets. Keep in mind this process is random and will differ from our current experiments.
 
 once this is done you can run:
